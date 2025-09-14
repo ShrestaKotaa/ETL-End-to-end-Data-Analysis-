@@ -144,6 +144,6 @@ ORDER BY growth_percentage DESC;
 - Improve **Performance Optimization** in SQL Queries.
 
 ---
-### **Author:** [Shresta Kota](https://github.com/yourusername)
+### **Author:** [Sreeman Mandava](https://github.com/yourusername)
 ### **License:** MIT
 
