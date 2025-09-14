@@ -22,7 +22,7 @@ This project demonstrates an **end-to-end ETL (Extract, Transform, Load) pipelin
 
 ```python
 import sqlalchemy as sal
-engine = sal.create_engine('mssql://Shresta/master?driver=ODBC+DRIVER+17+FOR+SQL+SERVER')
+engine = sal.create_engine('mssql://sreeman/master?driver=ODBC+DRIVER+17+FOR+SQL+SERVER')
 conn = engine.connect()
 df.to_sql('df_orders', con=conn, index=False, if_exists='append')
 ```
